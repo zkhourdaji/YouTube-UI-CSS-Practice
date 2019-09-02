@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 17px;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+nav {
+    height: 60px;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+i.fa-bars {
+    line-height: 50px;
+    height: 50px;
+    margin-right: 20px;
+    padding-left: 1rem;
+}
+
+.youtube-word {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+nav .fa-youtube {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.nav-search-input {
+    width: 90%;
+    height: 2rem;
+    box-sizing: border-box;
+}
+
+.nav-search-button {
+    height: 2rem;
+    width: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+.nav-form {
+    display: inline-block;
+    line-height: 100%;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.page {
+    display: flex;
+}
+
+.sidebar {
+    flex-grow: 1;
+    font-size: 1rem;
+    background-color: #ededed;
+    min-width: 15%;
+}
+
+div.sidebar i {
+    margin-right: 20px;
+}
+
+.main {
+    flex-grow: 9;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.thumbnails {
+    margin-top: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.thumbnails div {
+    flex-basis: 16%;
+}
+
+.hover:hover {
+    background-color: lightgray;
+}
+
+.hover {
+    min-width: 65px;
+    height: 40px;
+    padding: 15px 25px;
+    line-height: 40px;
+}
+
+hr {
+    border-color: lightgray;
+    height: 0px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.more-from-youtube {
+    margin-top: 0.7rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.channel-name {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.thumbnail {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.view-and-time {
+    font-weight: normal;
+    color: gray;
+}
+
+.view-and-time span {
+    font-size: 0.7rem;
+}
+
+.right-nav-icons {
+    padding-right: 2rem;
+}
+
+.right-nav-icons i {
+    margin: 0 1.5rem;
+}
+
+.title {
+    margin-top: 0.5rem;
+}
