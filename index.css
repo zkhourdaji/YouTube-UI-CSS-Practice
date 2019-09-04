@@ -37,6 +37,13 @@ nav .fa-youtube {
     font-size: 1.5rem;
 }
 
+.nav-form {
+    display: inline-block;
+    line-height: 100%;
+    width: 33%;
+    margin: 0 auto;
+}
+
 .nav-search-input {
     width: 90%;
     height: 2rem;
@@ -50,13 +57,6 @@ nav .fa-youtube {
     margin: 0;
     background: none;
     border: none;
-}
-
-.nav-form {
-    display: inline-block;
-    line-height: 100%;
-    width: 33%;
-    margin: 0 auto;
 }
 
 /* Page */
@@ -152,4 +152,16 @@ hr {
 
 .title {
     margin-top: 0.5rem;
+}
+
+@media (max-width: 1115px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-search-input {
+        display: none;
+    }
 }
