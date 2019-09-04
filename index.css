@@ -9,6 +9,8 @@ body {
     background-color: #f2f2f2;
 }
 
+/* Nav Bar */
+
 nav {
     height: 60px;
     background-color: white;
@@ -57,20 +59,37 @@ nav .fa-youtube {
     margin: 0 auto;
 }
 
+/* Page */
+
 .page {
     display: flex;
 }
+
+/* Side Bar */
 
 .sidebar {
     flex-grow: 1;
     font-size: 1rem;
     background-color: #ededed;
-    min-width: 15%;
+    min-width: 240px;
+}
+
+.hover:hover {
+    background-color: lightgray;
+}
+
+.hover {
+    min-width: 65px;
+    height: 40px;
+    padding: 15px 25px;
+    line-height: 40px;
 }
 
 div.sidebar i {
     margin-right: 20px;
 }
+
+/* Main */
 
 .main {
     flex-grow: 9;
@@ -86,17 +105,6 @@ div.sidebar i {
 
 .thumbnails div {
     flex-basis: 16%;
-}
-
-.hover:hover {
-    background-color: lightgray;
-}
-
-.hover {
-    min-width: 65px;
-    height: 40px;
-    padding: 15px 25px;
-    line-height: 40px;
 }
 
 hr {
@@ -122,6 +130,7 @@ hr {
 .thumbnail {
     font-weight: 600;
     margin-bottom: 2rem;
+    margin: 0 1rem 2rem 0;
 }
 
 .view-and-time {
